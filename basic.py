@@ -1,6 +1,7 @@
 import cv2
 import numpy as np
+from matplotlib import pyplot as plt
 
 img = cv2.imread('messi.jpg')
-px = img[100,100,0]
-print px
+
+plt.imshow(img)
